@@ -27,6 +27,7 @@ A API estará disponível em https://localhost:7235 ou Swagger https://localhost
 
 ## Para abrir o projeto no Visual Studio
 Selecione o arquivo CalculadoraCDB.sln para visualizar o projeto no Visual Studio.
+
 ![image](https://github.com/kettelut/Teste-B3/assets/10765578/017a7cda-c19a-4777-9d41-b16fa07aa790)
 
 
