@@ -1,7 +1,7 @@
-﻿using CalculadoraCDB.Aplicacao.Interfaces;
+﻿using CalculadoraCDB.Dominio.Interfaces;
 using CalculadoraCDB.Dominio.Entidades;
 
-namespace CalculadoraCDB.Aplicacao.Services
+namespace CalculadoraCDB.Dominio.Services
 {
     public class CalculadoraCdbService : ICalculadoraCdbService
 	{

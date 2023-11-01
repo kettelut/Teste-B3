@@ -1,5 +1,7 @@
 ﻿using CalculadoraCDB.Aplicacao.Interfaces;
-using CalculadoraCDB.Aplicacao.Services;
+using CalculadoraCDB.Aplicacao.Servicos;
+using CalculadoraCDB.Dominio.Interfaces;
+using CalculadoraCDB.Dominio.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -14,7 +16,11 @@ namespace CalculadoraCDB.Infra.IoC
 
 		public static void AddApplicationDependencies(this IServiceCollection serviceCollection)
 		{
-			serviceCollection.AddScoped<ICalculadoraCdbService, CalculadoraCdbService>(); 
+			// Aplicação
+			serviceCollection.AddScoped<ICalculadoraCdbAppService, CalculadoraCdbAppService>();
+
+			// Domínio
+			serviceCollection.AddScoped<ICalculadoraCdbService, CalculadoraCdbService>();
 		}
 	}
 }

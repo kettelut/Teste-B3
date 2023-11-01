@@ -2,8 +2,8 @@
 
 namespace CalculadoraCDB.Aplicacao.Interfaces
 {
-    public interface ICalculadoraCdbService
+    public interface ICalculadoraCdbAppService
 	{
-		ResultadoCdb Calcular(Cdb cdb);
+		ResultadoCdb Calcular(decimal valor, int meses);
 	}
 }

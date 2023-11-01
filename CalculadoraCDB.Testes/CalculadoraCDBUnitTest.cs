@@ -1,5 +1,5 @@
-using CalculadoraCDB.Aplicacao.Services;
 using CalculadoraCDB.Dominio.Entidades;
+using CalculadoraCDB.Dominio.Services;
 
 namespace CalculadoraCDB.Testes
 {
