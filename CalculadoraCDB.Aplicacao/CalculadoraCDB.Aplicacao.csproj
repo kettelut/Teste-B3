@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CalculadoraCDB.Domain\CalculadoraCDB.Dominio.csproj" />
+    <ProjectReference Include="..\CalculadoraCDB.Dominio\CalculadoraCDB.Dominio.csproj" />
   </ItemGroup>
 
 </Project>

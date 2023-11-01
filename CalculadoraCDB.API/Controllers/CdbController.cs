@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CalculadoraCDB.API.Controllers
 {
     [ApiController]
-	[Route("[controller]")]
+	[Route("api/[controller]")]
 	public class CdbController : ControllerBase
 	{
 		private readonly ICalculadoraCdbService _calculadoraCdbService;
@@ -18,7 +18,7 @@ namespace CalculadoraCDB.API.Controllers
 			_calculadoraCdbService = calculadoraCdbService;
 		}
 
-		[HttpPost(Name = "CalcularCDB")]
+		[HttpPost("Calcular")]
 		public IActionResult GetCalculo([FromBody] Cdb input)
 		{
 			_logger.LogInformation($@"Calcular o CDB do Valor {input.Valor} para {input.Meses} Meses.");

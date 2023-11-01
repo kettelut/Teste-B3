@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CalculadoraCDB.Application\CalculadoraCDB.Aplicacao.csproj" />
+    <ProjectReference Include="..\CalculadoraCDB.Aplicacao\CalculadoraCDB.Aplicacao.csproj" />
     <ProjectReference Include="..\CalculadoraCDB.Infra.IoC\CalculadoraCDB.Infra.IoC.csproj" />
   </ItemGroup>
 
